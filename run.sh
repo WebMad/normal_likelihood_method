@@ -1,0 +1,1 @@
+cd build && cmake --build . && mv main ../main && cd .. && ./main

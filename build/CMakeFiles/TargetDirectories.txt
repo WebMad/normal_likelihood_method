@@ -1,0 +1,3 @@
+/Users/gubin-dev/Documents/univercity/методы оптимизации/normal_likelihood_method/build/CMakeFiles/main.dir
+/Users/gubin-dev/Documents/univercity/методы оптимизации/normal_likelihood_method/build/CMakeFiles/edit_cache.dir
+/Users/gubin-dev/Documents/univercity/методы оптимизации/normal_likelihood_method/build/CMakeFiles/rebuild_cache.dir
