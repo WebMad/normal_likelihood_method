@@ -69,10 +69,24 @@ include CMakeFiles/main.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/main.dir/flags.make
 
+CMakeFiles/main.dir/main_autogen/mocs_compilation.cpp.o: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/main_autogen/mocs_compilation.cpp.o: main_autogen/mocs_compilation.cpp
+CMakeFiles/main.dir/main_autogen/mocs_compilation.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/gubin-dev/Documents/univercity/методы оптимизации/normal_likelihood_method/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/main.dir/main_autogen/mocs_compilation.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/main_autogen/mocs_compilation.cpp.o -MF CMakeFiles/main.dir/main_autogen/mocs_compilation.cpp.o.d -o CMakeFiles/main.dir/main_autogen/mocs_compilation.cpp.o -c "/Users/gubin-dev/Documents/univercity/методы оптимизации/normal_likelihood_method/build/main_autogen/mocs_compilation.cpp"
+
+CMakeFiles/main.dir/main_autogen/mocs_compilation.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/main.dir/main_autogen/mocs_compilation.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/gubin-dev/Documents/univercity/методы оптимизации/normal_likelihood_method/build/main_autogen/mocs_compilation.cpp" > CMakeFiles/main.dir/main_autogen/mocs_compilation.cpp.i
+
+CMakeFiles/main.dir/main_autogen/mocs_compilation.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/main.dir/main_autogen/mocs_compilation.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/gubin-dev/Documents/univercity/методы оптимизации/normal_likelihood_method/build/main_autogen/mocs_compilation.cpp" -o CMakeFiles/main.dir/main_autogen/mocs_compilation.cpp.s
+
 CMakeFiles/main.dir/main.cpp.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/main.cpp.o: /Users/gubin-dev/Documents/univercity/методы\ оптимизации/normal_likelihood_method/main.cpp
 CMakeFiles/main.dir/main.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/gubin-dev/Documents/univercity/методы оптимизации/normal_likelihood_method/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/main.dir/main.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/gubin-dev/Documents/univercity/методы оптимизации/normal_likelihood_method/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/main.dir/main.cpp.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/main.cpp.o -MF CMakeFiles/main.dir/main.cpp.o.d -o CMakeFiles/main.dir/main.cpp.o -c "/Users/gubin-dev/Documents/univercity/методы оптимизации/normal_likelihood_method/main.cpp"
 
 CMakeFiles/main.dir/main.cpp.i: cmake_force
@@ -83,10 +97,24 @@ CMakeFiles/main.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/main.dir/main.cpp.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/gubin-dev/Documents/univercity/методы оптимизации/normal_likelihood_method/main.cpp" -o CMakeFiles/main.dir/main.cpp.s
 
+CMakeFiles/main.dir/ui/main_window.cpp.o: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/ui/main_window.cpp.o: /Users/gubin-dev/Documents/univercity/методы\ оптимизации/normal_likelihood_method/ui/main_window.cpp
+CMakeFiles/main.dir/ui/main_window.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/gubin-dev/Documents/univercity/методы оптимизации/normal_likelihood_method/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/main.dir/ui/main_window.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/ui/main_window.cpp.o -MF CMakeFiles/main.dir/ui/main_window.cpp.o.d -o CMakeFiles/main.dir/ui/main_window.cpp.o -c "/Users/gubin-dev/Documents/univercity/методы оптимизации/normal_likelihood_method/ui/main_window.cpp"
+
+CMakeFiles/main.dir/ui/main_window.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/main.dir/ui/main_window.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/gubin-dev/Documents/univercity/методы оптимизации/normal_likelihood_method/ui/main_window.cpp" > CMakeFiles/main.dir/ui/main_window.cpp.i
+
+CMakeFiles/main.dir/ui/main_window.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/main.dir/ui/main_window.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/gubin-dev/Documents/univercity/методы оптимизации/normal_likelihood_method/ui/main_window.cpp" -o CMakeFiles/main.dir/ui/main_window.cpp.s
+
 CMakeFiles/main.dir/utils/data_generator.cpp.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/utils/data_generator.cpp.o: /Users/gubin-dev/Documents/univercity/методы\ оптимизации/normal_likelihood_method/utils/data_generator.cpp
 CMakeFiles/main.dir/utils/data_generator.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/gubin-dev/Documents/univercity/методы оптимизации/normal_likelihood_method/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/main.dir/utils/data_generator.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/gubin-dev/Documents/univercity/методы оптимизации/normal_likelihood_method/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/main.dir/utils/data_generator.cpp.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/utils/data_generator.cpp.o -MF CMakeFiles/main.dir/utils/data_generator.cpp.o.d -o CMakeFiles/main.dir/utils/data_generator.cpp.o -c "/Users/gubin-dev/Documents/univercity/методы оптимизации/normal_likelihood_method/utils/data_generator.cpp"
 
 CMakeFiles/main.dir/utils/data_generator.cpp.i: cmake_force
@@ -100,7 +128,7 @@ CMakeFiles/main.dir/utils/data_generator.cpp.s: cmake_force
 CMakeFiles/main.dir/utils/data_loader.cpp.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/utils/data_loader.cpp.o: /Users/gubin-dev/Documents/univercity/методы\ оптимизации/normal_likelihood_method/utils/data_loader.cpp
 CMakeFiles/main.dir/utils/data_loader.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/gubin-dev/Documents/univercity/методы оптимизации/normal_likelihood_method/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/main.dir/utils/data_loader.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/gubin-dev/Documents/univercity/методы оптимизации/normal_likelihood_method/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/main.dir/utils/data_loader.cpp.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/utils/data_loader.cpp.o -MF CMakeFiles/main.dir/utils/data_loader.cpp.o.d -o CMakeFiles/main.dir/utils/data_loader.cpp.o -c "/Users/gubin-dev/Documents/univercity/методы оптимизации/normal_likelihood_method/utils/data_loader.cpp"
 
 CMakeFiles/main.dir/utils/data_loader.cpp.i: cmake_force
@@ -114,7 +142,7 @@ CMakeFiles/main.dir/utils/data_loader.cpp.s: cmake_force
 CMakeFiles/main.dir/utils/data_params_calculator.cpp.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/utils/data_params_calculator.cpp.o: /Users/gubin-dev/Documents/univercity/методы\ оптимизации/normal_likelihood_method/utils/data_params_calculator.cpp
 CMakeFiles/main.dir/utils/data_params_calculator.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/gubin-dev/Documents/univercity/методы оптимизации/normal_likelihood_method/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/main.dir/utils/data_params_calculator.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/gubin-dev/Documents/univercity/методы оптимизации/normal_likelihood_method/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/main.dir/utils/data_params_calculator.cpp.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/utils/data_params_calculator.cpp.o -MF CMakeFiles/main.dir/utils/data_params_calculator.cpp.o.d -o CMakeFiles/main.dir/utils/data_params_calculator.cpp.o -c "/Users/gubin-dev/Documents/univercity/методы оптимизации/normal_likelihood_method/utils/data_params_calculator.cpp"
 
 CMakeFiles/main.dir/utils/data_params_calculator.cpp.i: cmake_force
@@ -125,24 +153,63 @@ CMakeFiles/main.dir/utils/data_params_calculator.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/main.dir/utils/data_params_calculator.cpp.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/gubin-dev/Documents/univercity/методы оптимизации/normal_likelihood_method/utils/data_params_calculator.cpp" -o CMakeFiles/main.dir/utils/data_params_calculator.cpp.s
 
+CMakeFiles/main.dir/utils/plot_viewer.cpp.o: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/utils/plot_viewer.cpp.o: /Users/gubin-dev/Documents/univercity/методы\ оптимизации/normal_likelihood_method/utils/plot_viewer.cpp
+CMakeFiles/main.dir/utils/plot_viewer.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/gubin-dev/Documents/univercity/методы оптимизации/normal_likelihood_method/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/main.dir/utils/plot_viewer.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/utils/plot_viewer.cpp.o -MF CMakeFiles/main.dir/utils/plot_viewer.cpp.o.d -o CMakeFiles/main.dir/utils/plot_viewer.cpp.o -c "/Users/gubin-dev/Documents/univercity/методы оптимизации/normal_likelihood_method/utils/plot_viewer.cpp"
+
+CMakeFiles/main.dir/utils/plot_viewer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/main.dir/utils/plot_viewer.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/gubin-dev/Documents/univercity/методы оптимизации/normal_likelihood_method/utils/plot_viewer.cpp" > CMakeFiles/main.dir/utils/plot_viewer.cpp.i
+
+CMakeFiles/main.dir/utils/plot_viewer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/main.dir/utils/plot_viewer.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/gubin-dev/Documents/univercity/методы оптимизации/normal_likelihood_method/utils/plot_viewer.cpp" -o CMakeFiles/main.dir/utils/plot_viewer.cpp.s
+
+CMakeFiles/main.dir/utils/results_saver.cpp.o: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/utils/results_saver.cpp.o: /Users/gubin-dev/Documents/univercity/методы\ оптимизации/normal_likelihood_method/utils/results_saver.cpp
+CMakeFiles/main.dir/utils/results_saver.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/gubin-dev/Documents/univercity/методы оптимизации/normal_likelihood_method/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/main.dir/utils/results_saver.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/utils/results_saver.cpp.o -MF CMakeFiles/main.dir/utils/results_saver.cpp.o.d -o CMakeFiles/main.dir/utils/results_saver.cpp.o -c "/Users/gubin-dev/Documents/univercity/методы оптимизации/normal_likelihood_method/utils/results_saver.cpp"
+
+CMakeFiles/main.dir/utils/results_saver.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/main.dir/utils/results_saver.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/gubin-dev/Documents/univercity/методы оптимизации/normal_likelihood_method/utils/results_saver.cpp" > CMakeFiles/main.dir/utils/results_saver.cpp.i
+
+CMakeFiles/main.dir/utils/results_saver.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/main.dir/utils/results_saver.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/gubin-dev/Documents/univercity/методы оптимизации/normal_likelihood_method/utils/results_saver.cpp" -o CMakeFiles/main.dir/utils/results_saver.cpp.s
+
 # Object files for target main
 main_OBJECTS = \
+"CMakeFiles/main.dir/main_autogen/mocs_compilation.cpp.o" \
 "CMakeFiles/main.dir/main.cpp.o" \
+"CMakeFiles/main.dir/ui/main_window.cpp.o" \
 "CMakeFiles/main.dir/utils/data_generator.cpp.o" \
 "CMakeFiles/main.dir/utils/data_loader.cpp.o" \
-"CMakeFiles/main.dir/utils/data_params_calculator.cpp.o"
+"CMakeFiles/main.dir/utils/data_params_calculator.cpp.o" \
+"CMakeFiles/main.dir/utils/plot_viewer.cpp.o" \
+"CMakeFiles/main.dir/utils/results_saver.cpp.o"
 
 # External object files for target main
 main_EXTERNAL_OBJECTS =
 
+main: CMakeFiles/main.dir/main_autogen/mocs_compilation.cpp.o
 main: CMakeFiles/main.dir/main.cpp.o
+main: CMakeFiles/main.dir/ui/main_window.cpp.o
 main: CMakeFiles/main.dir/utils/data_generator.cpp.o
 main: CMakeFiles/main.dir/utils/data_loader.cpp.o
 main: CMakeFiles/main.dir/utils/data_params_calculator.cpp.o
+main: CMakeFiles/main.dir/utils/plot_viewer.cpp.o
+main: CMakeFiles/main.dir/utils/results_saver.cpp.o
 main: CMakeFiles/main.dir/build.make
 main: /usr/local/lib/libnlopt.0.11.1.dylib
+main: /usr/local/lib/QtWidgets.framework/Versions/A/QtWidgets
+main: /usr/local/lib/QtGui.framework/Versions/A/QtGui
+main: /usr/local/lib/QtCore.framework/Versions/A/QtCore
 main: CMakeFiles/main.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="/Users/gubin-dev/Documents/univercity/методы оптимизации/normal_likelihood_method/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="/Users/gubin-dev/Documents/univercity/методы оптимизации/normal_likelihood_method/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable main"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/main.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

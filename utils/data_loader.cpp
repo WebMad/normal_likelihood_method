@@ -33,7 +33,7 @@ void DataLoader::loadData(const vector<double>& newData) {
 }
 
 // Возвращает загруженные данные
-vector<double> DataLoader::getData() {
+vector<double>& DataLoader::getData() {
     return data;
 }
 

@@ -129,6 +129,19 @@ main/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/build
 .PHONY : main/fast
 
+#=============================================================================
+# Target rules for targets named main_autogen
+
+# Build rule for target.
+main_autogen: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 main_autogen
+.PHONY : main_autogen
+
+# fast build rule for target.
+main_autogen/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main_autogen.dir/build.make CMakeFiles/main_autogen.dir/build
+.PHONY : main_autogen/fast
+
 main.o: main.cpp.o
 .PHONY : main.o
 
@@ -152,6 +165,54 @@ main.s: main.cpp.s
 main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/main.cpp.s
 .PHONY : main.cpp.s
+
+main_autogen/mocs_compilation.o: main_autogen/mocs_compilation.cpp.o
+.PHONY : main_autogen/mocs_compilation.o
+
+# target to build an object file
+main_autogen/mocs_compilation.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/main_autogen/mocs_compilation.cpp.o
+.PHONY : main_autogen/mocs_compilation.cpp.o
+
+main_autogen/mocs_compilation.i: main_autogen/mocs_compilation.cpp.i
+.PHONY : main_autogen/mocs_compilation.i
+
+# target to preprocess a source file
+main_autogen/mocs_compilation.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/main_autogen/mocs_compilation.cpp.i
+.PHONY : main_autogen/mocs_compilation.cpp.i
+
+main_autogen/mocs_compilation.s: main_autogen/mocs_compilation.cpp.s
+.PHONY : main_autogen/mocs_compilation.s
+
+# target to generate assembly for a file
+main_autogen/mocs_compilation.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/main_autogen/mocs_compilation.cpp.s
+.PHONY : main_autogen/mocs_compilation.cpp.s
+
+ui/main_window.o: ui/main_window.cpp.o
+.PHONY : ui/main_window.o
+
+# target to build an object file
+ui/main_window.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/ui/main_window.cpp.o
+.PHONY : ui/main_window.cpp.o
+
+ui/main_window.i: ui/main_window.cpp.i
+.PHONY : ui/main_window.i
+
+# target to preprocess a source file
+ui/main_window.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/ui/main_window.cpp.i
+.PHONY : ui/main_window.cpp.i
+
+ui/main_window.s: ui/main_window.cpp.s
+.PHONY : ui/main_window.s
+
+# target to generate assembly for a file
+ui/main_window.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/ui/main_window.cpp.s
+.PHONY : ui/main_window.cpp.s
 
 utils/data_generator.o: utils/data_generator.cpp.o
 .PHONY : utils/data_generator.o
@@ -225,6 +286,54 @@ utils/data_params_calculator.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/utils/data_params_calculator.cpp.s
 .PHONY : utils/data_params_calculator.cpp.s
 
+utils/plot_viewer.o: utils/plot_viewer.cpp.o
+.PHONY : utils/plot_viewer.o
+
+# target to build an object file
+utils/plot_viewer.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/utils/plot_viewer.cpp.o
+.PHONY : utils/plot_viewer.cpp.o
+
+utils/plot_viewer.i: utils/plot_viewer.cpp.i
+.PHONY : utils/plot_viewer.i
+
+# target to preprocess a source file
+utils/plot_viewer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/utils/plot_viewer.cpp.i
+.PHONY : utils/plot_viewer.cpp.i
+
+utils/plot_viewer.s: utils/plot_viewer.cpp.s
+.PHONY : utils/plot_viewer.s
+
+# target to generate assembly for a file
+utils/plot_viewer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/utils/plot_viewer.cpp.s
+.PHONY : utils/plot_viewer.cpp.s
+
+utils/results_saver.o: utils/results_saver.cpp.o
+.PHONY : utils/results_saver.o
+
+# target to build an object file
+utils/results_saver.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/utils/results_saver.cpp.o
+.PHONY : utils/results_saver.cpp.o
+
+utils/results_saver.i: utils/results_saver.cpp.i
+.PHONY : utils/results_saver.i
+
+# target to preprocess a source file
+utils/results_saver.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/utils/results_saver.cpp.i
+.PHONY : utils/results_saver.cpp.i
+
+utils/results_saver.s: utils/results_saver.cpp.s
+.PHONY : utils/results_saver.s
+
+# target to generate assembly for a file
+utils/results_saver.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/utils/results_saver.cpp.s
+.PHONY : utils/results_saver.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -233,10 +342,17 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... main_autogen"
 	@echo "... main"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... main_autogen/mocs_compilation.o"
+	@echo "... main_autogen/mocs_compilation.i"
+	@echo "... main_autogen/mocs_compilation.s"
+	@echo "... ui/main_window.o"
+	@echo "... ui/main_window.i"
+	@echo "... ui/main_window.s"
 	@echo "... utils/data_generator.o"
 	@echo "... utils/data_generator.i"
 	@echo "... utils/data_generator.s"
@@ -246,6 +362,12 @@ help:
 	@echo "... utils/data_params_calculator.o"
 	@echo "... utils/data_params_calculator.i"
 	@echo "... utils/data_params_calculator.s"
+	@echo "... utils/plot_viewer.o"
+	@echo "... utils/plot_viewer.i"
+	@echo "... utils/plot_viewer.s"
+	@echo "... utils/results_saver.o"
+	@echo "... utils/results_saver.i"
+	@echo "... utils/results_saver.s"
 .PHONY : help
 
 

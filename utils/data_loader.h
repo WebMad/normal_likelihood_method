@@ -16,7 +16,7 @@ public:
     void loadData(const vector<double>& data);
 
     // возвращает загруженные данные
-    vector<double> getData();
+    vector<double>& getData();
 
     // загружает в файл данные из класса
     void saveToFile(string filename);

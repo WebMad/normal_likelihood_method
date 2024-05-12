@@ -4,8 +4,7 @@
             "name": "Mac",
             "includePath": [
                 "${default}",
-                "${workspaceFolder}/build/Boost/src/Boost",
-                "${workspaceFolder}/build/Nlopt/src/Nlopt"
+                "/usr/local/Cellar/qt/6.7.0_1/lib/QtWidgets.framework/Versions/A/Headers"
             ],
             "defines": [],
             "macFrameworkPath": [

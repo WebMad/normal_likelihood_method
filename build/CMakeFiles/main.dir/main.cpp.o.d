@@ -847,6 +847,10 @@ CMakeFiles/main.dir/main.cpp.o: \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/gethostuuid.h \
   /usr/local/include/boost/config/detail/suffix.hpp \
   /usr/local/include/boost/config/helper_macros.hpp \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/any \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/memory_resource \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/charconv \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/execution \
   /usr/local/include/boost/config/detail/cxx_composite.hpp \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/cfloat \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/float.h \
@@ -954,6 +958,10 @@ CMakeFiles/main.dir/main.cpp.o: \
   /usr/local/include/boost/math/special_functions/trunc.hpp \
   /usr/local/include/boost/math/ccmath/detail/config.hpp \
   /usr/local/include/boost/math/tools/is_constant_evaluated.hpp \
+  /usr/local/include/boost/math/ccmath/ldexp.hpp \
+  /usr/local/include/boost/math/ccmath/abs.hpp \
+  /usr/local/include/boost/math/ccmath/isnan.hpp \
+  /usr/local/include/boost/math/ccmath/isinf.hpp \
   /usr/local/include/boost/math/special_functions/powm1.hpp \
   /usr/local/include/boost/math/special_functions/expm1.hpp \
   /usr/local/include/boost/math/special_functions/sign.hpp \
@@ -990,4 +998,192 @@ CMakeFiles/main.dir/main.cpp.o: \
   /usr/local/include/boost/math/special_functions/detail/erf_inv.hpp \
   /usr/local/include/boost/math/distributions/complement.hpp \
   /usr/local/include/boost/math/distributions/detail/common_error_handling.hpp \
-  /usr/local/include/boost/math/distributions/detail/derived_accessors.hpp
+  /usr/local/include/boost/math/distributions/detail/derived_accessors.hpp \
+  /usr/local/lib/QtWidgets.framework/Headers/QApplication \
+  /usr/local/lib/QtWidgets.framework/Headers/qapplication.h \
+  /usr/local/include/QtWidgets/qtwidgetsglobal.h \
+  /usr/local/include/QtGui/qtguiglobal.h \
+  /usr/local/include/QtCore/qglobal.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/stdbool.h \
+  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/15.0.0/include/stdbool.h \
+  /usr/local/include/QtCore/qtversionchecks.h \
+  /usr/local/include/QtCore/qtconfiginclude.h \
+  /usr/local/include/QtCore/qconfig.h \
+  /usr/local/include/QtCore/qtcore-config.h \
+  /usr/local/include/QtCore/qtconfigmacros.h \
+  /usr/local/include/QtCore/qtcoreexports.h \
+  /usr/local/include/QtCore/qcompilerdetection.h \
+  /usr/local/include/QtCore/qsystemdetection.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/TargetConditionals.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/AvailabilityMacros.h \
+  /usr/local/include/QtCore/qprocessordetection.h \
+  /usr/local/include/QtCore/qtdeprecationmarkers.h \
+  /usr/local/include/QtCore/qtpreprocessorsupport.h \
+  /usr/local/include/QtCore/qassert.h /usr/local/include/QtCore/qtnoop.h \
+  /usr/local/include/QtCore/qtypes.h \
+  /usr/local/include/QtCore/qtversion.h \
+  /usr/local/include/QtCore/qtclasshelpermacros.h \
+  /usr/local/include/QtCore/qtypeinfo.h \
+  /usr/local/include/QtCore/qcontainerfwd.h \
+  /usr/local/include/QtCore/qsysinfo.h \
+  /usr/local/include/QtCore/qlogging.h \
+  /usr/local/include/QtCore/qflags.h \
+  /usr/local/include/QtCore/qcompare_impl.h \
+  /usr/local/include/QtCore/qatomic.h \
+  /usr/local/include/QtCore/qbasicatomic.h \
+  /usr/local/include/QtCore/qatomic_cxx11.h \
+  /usr/local/include/QtCore/qgenericatomic.h \
+  /usr/local/include/QtCore/qyieldcpu.h \
+  /usr/local/include/QtCore/qconstructormacros.h \
+  /usr/local/include/QtCore/qdarwinhelpers.h \
+  /usr/local/include/QtCore/qexceptionhandling.h \
+  /usr/local/include/QtCore/qforeach.h \
+  /usr/local/include/QtCore/qttypetraits.h \
+  /usr/local/include/QtCore/qfunctionpointer.h \
+  /usr/local/include/QtCore/qglobalstatic.h \
+  /usr/local/include/QtCore/qmalloc.h \
+  /usr/local/include/QtCore/qminmax.h \
+  /usr/local/include/QtCore/qnumeric.h \
+  /usr/local/include/QtCore/qoverload.h \
+  /usr/local/include/QtCore/qswap.h \
+  /usr/local/include/QtCore/qtenvironmentvariables.h \
+  /usr/local/include/QtCore/qtresource.h \
+  /usr/local/include/QtCore/qttranslation.h \
+  /usr/local/include/QtCore/qversiontagging.h \
+  /usr/local/include/QtGui/qtgui-config.h \
+  /usr/local/include/QtGui/qtguiexports.h \
+  /usr/local/include/QtWidgets/qtwidgets-config.h \
+  /usr/local/include/QtWidgets/qtwidgetsexports.h \
+  /usr/local/include/QtCore/qcoreapplication.h \
+  /usr/local/include/QtCore/qstring.h /usr/local/include/QtCore/qchar.h \
+  /usr/local/include/QtCore/qstringview.h \
+  /usr/local/include/QtCore/qbytearray.h \
+  /usr/local/include/QtCore/qrefcount.h \
+  /usr/local/include/QtCore/qnamespace.h \
+  /usr/local/include/QtCore/qtmetamacros.h \
+  /usr/local/include/QtCore/qarraydata.h \
+  /usr/local/include/QtCore/qpair.h \
+  /usr/local/include/QtCore/qarraydatapointer.h \
+  /usr/local/include/QtCore/qarraydataops.h \
+  /usr/local/include/QtCore/qcontainertools_impl.h \
+  /usr/local/include/QtCore/qxptype_traits.h \
+  /usr/local/include/QtCore/q20functional.h \
+  /usr/local/include/QtCore/q20memory.h \
+  /usr/local/include/QtCore/qbytearrayalgorithms.h \
+  /usr/local/include/QtCore/qbytearrayview.h \
+  /usr/local/include/QtCore/qstringfwd.h \
+  /usr/local/include/QtCore/q20type_traits.h \
+  /usr/local/include/QtCore/qstringliteral.h \
+  /usr/local/include/QtCore/qstringalgorithms.h \
+  /usr/local/include/QtCore/qlatin1stringview.h \
+  /usr/local/include/QtCore/qanystringview.h \
+  /usr/local/include/QtCore/qutf8stringview.h \
+  /usr/local/include/QtCore/qstringtokenizer.h \
+  /usr/local/include/QtCore/qstringbuilder.h \
+  /usr/local/include/QtCore/qstringconverter.h \
+  /usr/local/include/QtCore/qstringconverter_base.h \
+  /usr/local/include/QtCore/qcoreevent.h \
+  /usr/local/include/QtCore/qobjectdefs.h \
+  /usr/local/include/QtCore/qobjectdefs_impl.h \
+  /usr/local/include/QtCore/qfunctionaltools_impl.h \
+  /usr/local/include/QtCore/qdeadlinetimer.h \
+  /usr/local/include/QtCore/qelapsedtimer.h \
+  /usr/local/include/QtCore/qmetatype.h \
+  /usr/local/include/QtCore/qcompare.h \
+  /usr/local/include/QtCore/qcomparehelpers.h \
+  /usr/local/include/QtCore/qdatastream.h \
+  /usr/local/include/QtCore/qscopedpointer.h \
+  /usr/local/include/QtCore/qiodevicebase.h \
+  /usr/local/include/QtCore/qfloat16.h \
+  /usr/local/include/QtCore/qhashfunctions.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/numeric \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__numeric/accumulate.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__numeric/adjacent_difference.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__numeric/exclusive_scan.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__numeric/gcd_lcm.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__numeric/inclusive_scan.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__numeric/inner_product.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__numeric/iota.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__numeric/midpoint.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__numeric/partial_sum.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__numeric/reduce.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__numeric/transform_exclusive_scan.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__numeric/transform_inclusive_scan.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__numeric/transform_reduce.h \
+  /usr/local/include/QtCore/qmath.h \
+  /usr/local/include/QtCore/qalgorithms.h \
+  /usr/local/include/QtCore/qiterable.h \
+  /usr/local/include/QtCore/qmetacontainer.h \
+  /usr/local/include/QtCore/qcontainerinfo.h \
+  /usr/local/include/QtCore/qtaggedpointer.h \
+  /usr/local/include/QtCore/qscopeguard.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/list \
+  /usr/local/include/QtCore/qeventloop.h \
+  /usr/local/include/QtCore/qobject.h /usr/local/include/QtCore/qlist.h \
+  /usr/local/include/QtCore/qiterator.h \
+  /usr/local/include/QtCore/qbytearraylist.h \
+  /usr/local/include/QtCore/qstringlist.h \
+  /usr/local/include/QtCore/qstringmatcher.h \
+  /usr/local/include/QtCore/qobject_impl.h \
+  /usr/local/include/QtCore/qbindingstorage.h \
+  /usr/local/include/QtCore/qnativeinterface.h \
+  /usr/local/include/QtCore/qdebug.h \
+  /usr/local/include/QtCore/qtextstream.h \
+  /usr/local/include/QtCore/qcontiguouscache.h \
+  /usr/local/include/QtCore/qsharedpointer.h \
+  /usr/local/include/QtCore/qshareddata.h \
+  /usr/local/include/QtCore/qsharedpointer_impl.h \
+  /usr/local/include/QtCore/qmap.h \
+  /usr/local/include/QtCore/qshareddata_impl.h \
+  /usr/local/include/QtCore/qset.h /usr/local/include/QtCore/qhash.h \
+  /usr/local/include/QtCore/qvarlengtharray.h \
+  /usr/local/include/QtCore/qcoreapplication_platform.h \
+  /usr/local/include/QtGui/qwindowdefs.h \
+  /usr/local/include/QtCore/qpoint.h \
+  /usr/local/include/QtCore/q23utility.h \
+  /usr/local/include/QtCore/qsize.h /usr/local/include/QtCore/qmargins.h \
+  /usr/local/include/QtGui/qcursor.h /usr/local/include/QtGui/qbitmap.h \
+  /usr/local/include/QtGui/qpixmap.h \
+  /usr/local/include/QtGui/qpaintdevice.h \
+  /usr/local/include/QtCore/qrect.h /usr/local/include/QtGui/qcolor.h \
+  /usr/local/include/QtGui/qrgb.h /usr/local/include/QtGui/qrgba64.h \
+  /usr/local/include/QtGui/qimage.h \
+  /usr/local/include/QtGui/qpixelformat.h \
+  /usr/local/include/QtGui/qtransform.h \
+  /usr/local/include/QtGui/qpolygon.h /usr/local/include/QtGui/qregion.h \
+  /usr/local/include/QtCore/qline.h \
+  /usr/local/include/QtGui/qguiapplication.h \
+  /usr/local/include/QtGui/qinputmethod.h \
+  /usr/local/include/QtCore/qlocale.h \
+  /usr/local/include/QtCore/qvariant.h \
+  /usr/local/include/QtGui/qguiapplication_platform.h \
+  /usr/local/lib/QtWidgets.framework/Headers/QWidget \
+  /usr/local/lib/QtWidgets.framework/Headers/qwidget.h \
+  /usr/local/include/QtGui/qaction.h \
+  /usr/local/include/QtGui/qkeysequence.h \
+  /usr/local/include/QtGui/qicon.h /usr/local/include/QtGui/qpalette.h \
+  /usr/local/include/QtGui/qbrush.h /usr/local/include/QtGui/qfont.h \
+  /usr/local/include/QtCore/qendian.h \
+  /usr/local/include/QtGui/qfontmetrics.h \
+  /usr/local/include/QtGui/qfontinfo.h \
+  /usr/local/include/QtWidgets/qsizepolicy.h \
+  /Users/gubin-dev/Documents/univercity/методы\ оптимизации/normal_likelihood_method/ui/main_window.h \
+  /usr/local/lib/QtWidgets.framework/Headers/QPushButton \
+  /usr/local/lib/QtWidgets.framework/Headers/qpushbutton.h \
+  /usr/local/include/QtWidgets/qabstractbutton.h \
+  /usr/local/include/QtWidgets/qwidget.h \
+  /usr/local/lib/QtWidgets.framework/Headers/QVBoxLayout \
+  /usr/local/lib/QtWidgets.framework/Headers/qboxlayout.h \
+  /usr/local/include/QtWidgets/qlayout.h \
+  /usr/local/include/QtWidgets/qlayoutitem.h \
+  /usr/local/include/QtWidgets/qboxlayout.h \
+  /usr/local/include/QtWidgets/qgridlayout.h \
+  /usr/local/lib/QtWidgets.framework/Headers/QMessageBox \
+  /usr/local/lib/QtWidgets.framework/Headers/qmessagebox.h \
+  /usr/local/include/QtWidgets/qdialog.h \
+  /usr/local/include/QtWidgets/qdialogbuttonbox.h \
+  /Users/gubin-dev/Documents/univercity/методы\ оптимизации/normal_likelihood_method/ui/../utils/data_generator.h \
+  /Users/gubin-dev/Documents/univercity/методы\ оптимизации/normal_likelihood_method/ui/../utils/data_loader.h \
+  /Users/gubin-dev/Documents/univercity/методы\ оптимизации/normal_likelihood_method/ui/../utils/data_params_calculator.h \
+  /Users/gubin-dev/Documents/univercity/методы\ оптимизации/normal_likelihood_method/ui/../utils/results_saver.h \
+  /Users/gubin-dev/Documents/univercity/методы\ оптимизации/normal_likelihood_method/ui/../utils/plot_viewer.h
