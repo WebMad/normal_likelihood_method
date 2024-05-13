@@ -2,7 +2,7 @@
 #include <QTextEdit>
 #include <sstream>
 #include <string>
-
+#include <QLabel>
 
 MainWindow::MainWindow(
     DataGenerator *dataGenerator,
@@ -18,7 +18,7 @@ MainWindow::MainWindow(
     resultsSaver(resultsSaver)
 {
     // Установка заголовка окна
-    setWindowTitle("Complex Layout Example");
+    setWindowTitle("Метода максимального правдоподобия. Губин А.C.");
 
     // Создание кнопок
     QPushButton *loadFromFileBtn = new QPushButton("Загрузить из файла");
@@ -56,9 +56,19 @@ MainWindow::MainWindow(
     textBoxLayout->addWidget(textBoxBottom, 1);
 
     // Главный горизонтальный макет
-    QHBoxLayout *mainLayout = new QHBoxLayout;
-    mainLayout->addLayout(buttonsLayout);
-    mainLayout->addLayout(textBoxLayout);
+    QHBoxLayout *bodyLayout = new QHBoxLayout;
+    bodyLayout->addLayout(buttonsLayout);
+    bodyLayout->addLayout(textBoxLayout);
+
+    QVBoxLayout *mainLayout = new QVBoxLayout;
+    QLabel *titleLabel = new QLabel("Применение метода максимального правдоподобия\nдля оценки параметров нормального распределения");
+    titleLabel->setAlignment(Qt::AlignCenter); // Центрирование текста
+    QFont font = titleLabel->font();
+    font.setPointSize(18);
+    titleLabel->setFont(font);
+
+    mainLayout->addWidget(titleLabel);
+    mainLayout->addLayout(bodyLayout);
 
     // Установка главного макета для окна
     setLayout(mainLayout);
@@ -79,13 +89,16 @@ void MainWindow::onLoadData() {
 void MainWindow::viewData() {
     vector<double>& data = dataLoader->getData();
 
-    ostringstream oss;
-    if (!data.empty()) {
-        for (size_t i = 0; i < data.size() - 1; ++i) {
-            oss << data[i] << ',';
-        }
-        oss << data.back();
+    if (data.empty()) {
+        QMessageBox::warning(this, "Ошибка", "Нет данных для обработки");
+        return;
     }
+
+    ostringstream oss;
+    for (size_t i = 0; i < data.size() - 1; ++i) {
+        oss << data[i] << ',';
+    }
+    oss << data.back();
 
     findChild<QTextEdit*>("samplingTextBox")->setPlainText(QString::fromStdString(oss.str()));
 }
@@ -105,6 +118,11 @@ void MainWindow::onSaveData() {
 
 void MainWindow::onCalcParams() {
     vector<double> data = dataLoader->getData();
+
+    if (data.empty()) {
+        QMessageBox::warning(this, "Ошибка", "Нет данных для обработки");
+        return;
+    }
 
     dataParamsCalculator->loadData(data);
     double avg = dataParamsCalculator->calcAvg();
@@ -140,5 +158,12 @@ void MainWindow::onSaveParams() {
 }
 
 void MainWindow::onDistributionGraph() {
-    plotViewer->viewDistributionPlot(dataLoader->getData());
+    vector<double> data = dataLoader->getData();
+
+    if (data.empty()) {
+        QMessageBox::warning(this, "Ошибка", "Нет данных для обработки");
+        return;
+    }
+
+    plotViewer->viewDistributionPlot(data);
 }

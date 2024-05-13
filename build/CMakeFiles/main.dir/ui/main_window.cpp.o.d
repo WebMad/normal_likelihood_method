@@ -976,4 +976,8 @@ CMakeFiles/main.dir/ui/main_window.cpp.o: \
   /usr/local/include/QtGui/qtextoption.h \
   /usr/local/include/QtGui/qtextcursor.h \
   /usr/local/include/QtGui/qtextformat.h /usr/local/include/QtGui/qpen.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/sstream
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/sstream \
+  /usr/local/lib/QtWidgets.framework/Headers/QLabel \
+  /usr/local/lib/QtWidgets.framework/Headers/qlabel.h \
+  /usr/local/include/QtGui/qpicture.h \
+  /usr/local/include/QtCore/qiodevice.h

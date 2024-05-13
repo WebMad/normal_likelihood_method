@@ -3048,6 +3048,7 @@ CMakeFiles/main.dir/ui/main_window.cpp.o: /Users/gubin-dev/Documents/univercity/
   /usr/local/include/QtCore/qglobalstatic.h \
   /usr/local/include/QtCore/qhash.h \
   /usr/local/include/QtCore/qhashfunctions.h \
+  /usr/local/include/QtCore/qiodevice.h \
   /usr/local/include/QtCore/qiodevicebase.h \
   /usr/local/include/QtCore/qiterable.h \
   /usr/local/include/QtCore/qiterator.h \
@@ -3136,6 +3137,7 @@ CMakeFiles/main.dir/ui/main_window.cpp.o: /Users/gubin-dev/Documents/univercity/
   /usr/local/include/QtGui/qpaintdevice.h \
   /usr/local/include/QtGui/qpalette.h \
   /usr/local/include/QtGui/qpen.h \
+  /usr/local/include/QtGui/qpicture.h \
   /usr/local/include/QtGui/qpixelformat.h \
   /usr/local/include/QtGui/qpixmap.h \
   /usr/local/include/QtGui/qpolygon.h \
@@ -3165,12 +3167,16 @@ CMakeFiles/main.dir/ui/main_window.cpp.o: /Users/gubin-dev/Documents/univercity/
   /usr/local/include/QtWidgets/qtwidgetsexports.h \
   /usr/local/include/QtWidgets/qtwidgetsglobal.h \
   /usr/local/include/QtWidgets/qwidget.h \
+  /usr/local/lib/QtGui.framework/Headers/QFont \
+  /usr/local/lib/QtGui.framework/Headers/qfont.h \
+  /usr/local/lib/QtWidgets.framework/Headers/QLabel \
   /usr/local/lib/QtWidgets.framework/Headers/QMessageBox \
   /usr/local/lib/QtWidgets.framework/Headers/QPushButton \
   /usr/local/lib/QtWidgets.framework/Headers/QTextEdit \
   /usr/local/lib/QtWidgets.framework/Headers/QVBoxLayout \
   /usr/local/lib/QtWidgets.framework/Headers/QWidget \
   /usr/local/lib/QtWidgets.framework/Headers/qboxlayout.h \
+  /usr/local/lib/QtWidgets.framework/Headers/qlabel.h \
   /usr/local/lib/QtWidgets.framework/Headers/qmessagebox.h \
   /usr/local/lib/QtWidgets.framework/Headers/qpushbutton.h \
   /usr/local/lib/QtWidgets.framework/Headers/qtextedit.h \
@@ -7199,6 +7205,10 @@ CMakeFiles/main.dir/utils/results_saver.cpp.o: /Users/gubin-dev/Documents/univer
 
 /usr/local/lib/QtWidgets.framework/Headers/QTextEdit:
 
+/usr/local/lib/QtWidgets.framework/Headers/QLabel:
+
+/usr/local/lib/QtGui.framework/Headers/QFont:
+
 /usr/local/include/QtWidgets/qframe.h:
 
 /usr/local/include/QtGui/qtextoption.h:
@@ -7208,6 +7218,8 @@ CMakeFiles/main.dir/utils/results_saver.cpp.o: /Users/gubin-dev/Documents/univer
 /usr/local/include/QtGui/qtextdocument.h:
 
 /usr/local/include/QtGui/qtextcursor.h:
+
+/usr/local/include/QtCore/qiodevice.h:
 
 /usr/local/lib/QtWidgets.framework/Headers/qwidget.h:
 
@@ -7268,6 +7280,8 @@ CMakeFiles/main.dir/utils/results_saver.cpp.o: /Users/gubin-dev/Documents/univer
 /usr/local/include/boost/predef/detail/os_detected.h:
 
 /usr/local/include/boost/predef/detail/_cassert.h:
+
+/usr/local/include/QtGui/qpicture.h:
 
 /usr/local/include/boost/move/detail/std_ns_end.hpp:
 
@@ -8545,6 +8559,8 @@ main_autogen/UYX5XTB5RZ/moc_main_window.cpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__type_traits/add_cv.h:
 
+/usr/local/lib/QtGui.framework/Headers/qfont.h:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__functional/perfect_forward.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__iterator/reverse_iterator.h:
@@ -9380,6 +9396,8 @@ main_autogen/UYX5XTB5RZ/moc_main_window.cpp:
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__bit/byteswap.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__ios/fpos.h:
+
+/usr/local/lib/QtWidgets.framework/Headers/qlabel.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__algorithm/ranges_all_of.h:
 
