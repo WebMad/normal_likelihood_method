@@ -83,6 +83,16 @@
         "format": "cpp",
         "text_encoding": "cpp",
         "qwidget": "cpp",
-        "rope": "cpp"
+        "rope": "cpp",
+        "hash_map": "cpp",
+        "forward_list": "cpp",
+        "regex": "cpp",
+        "set": "cpp",
+        "unordered_set": "cpp",
+        "valarray": "cpp",
+        "slist": "cpp",
+        "generator": "cpp",
+        "ranges": "cpp",
+        "stacktrace": "cpp"
     }
 }

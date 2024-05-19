@@ -12,7 +12,7 @@ void PlotViewer::viewDistributionPlot(vector<double> &data) {
     } else {
         // Подготовка данных для гистограммы
         map<double, int> histogram;
-        double binSize = 1;  // Установка размера бина
+        double binSize = 0.5;  // Установка размера бина
 
         for (double value : data) {
             double bin = floor(value / binSize) * binSize;  // Округление вниз и нормализация
@@ -20,7 +20,7 @@ void PlotViewer::viewDistributionPlot(vector<double> &data) {
         }
 
         // Команды для gnuplot
-        fprintf(gnuplotPipe, "set title 'Normal Distribution Histogram'\n");
+        fprintf(gnuplotPipe, "set title 'Lognormal Distribution Histogram'\n");
         fprintf(gnuplotPipe, "set style data boxes\n"); // Установка стиля гистограммы
         fprintf(gnuplotPipe, "set style fill solid 0.5\n"); // Заполнение боксов
         fprintf(gnuplotPipe, "set boxwidth %f\n", binSize * 0.9); // Настройка ширины боксов

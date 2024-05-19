@@ -3,6 +3,8 @@
 #include <sstream>
 #include <string>
 #include <QLabel>
+#include "../utils/censoring_data.h"
+#include "../utils/log_normal_system_solver.h"
 
 MainWindow::MainWindow(
     DataGenerator *dataGenerator,
@@ -104,7 +106,7 @@ void MainWindow::viewData() {
 }
 
 void MainWindow::onGenerateData() {
-    vector<double> data = dataGenerator->generateData(1000);
+    vector<double> data = dataGenerator->generateData(3000);
     dataLoader->loadData(data);
 
     viewData();
@@ -124,28 +126,33 @@ void MainWindow::onCalcParams() {
         return;
     }
 
-    dataParamsCalculator->loadData(data);
-    double avg = dataParamsCalculator->calcAvg();
-    double avgDeviation = dataParamsCalculator->calcAvgDeviation(avg);
-    double valuationBiasAdjustment = dataParamsCalculator->calcValuationBiasAdjustment(avgDeviation);
+    CensoringData censoringData;
+    censoringData.loadData(data);
+    censoringData.censorDataIType(10);
 
-    vector<vector<double>> covMatrix = dataParamsCalculator->calcCovariationMatrix(avg, avgDeviation);
+    for (int i = 0; i < censoringData.censoredData.size(); i++) {
+        cout << censoringData.censoredData[i] << ", " << endl;
+    }
+
+    double a = 0.99; // начальное значение параметра a
+    double sigma = 0.51; // начальное значение параметра sigma
+    double x0 = -0.23; // начальное значение параметра x0
+
+    vector<double> res = {a, sigma, x0};
+
+    LogNormalSystemSolver logNormalSystemSolver;
+
+    std::vector<double> optimized_params = logNormalSystemSolver.nelder_mead(res, censoringData.resultData, censoringData.censoredData, censoringData.r);
+
 
     ostringstream oss;
 
-    oss << "Среднее: " << avg << endl;
-    oss << "Среднее отклонение: " << avgDeviation << endl;
-    oss << "Поправка на смещение оценки: " << valuationBiasAdjustment << endl;
+    oss << "данные" << endl;
 
-    oss << endl << "Матрица ковариаций: " << endl;
-
-    for (vector<double> row: covMatrix) {
-        for (double entry: row) {
-            oss << entry << " ";
-        }
-
-        oss << endl;
-    }
+    oss << "a result: " << optimized_params[0] << std::endl;
+    oss << "sigma result: " << optimized_params[1] << std::endl;
+    oss << "x0 result: " << optimized_params[2] << std::endl;
+    oss << "censored data count: " << censoringData.censoredData.size() << std::endl;
 
     findChild<QTextEdit*>("resultsTextBox")->setPlainText(QString::fromStdString(oss.str()));
 }

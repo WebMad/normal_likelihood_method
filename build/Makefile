@@ -214,6 +214,30 @@ ui/main_window.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/ui/main_window.cpp.s
 .PHONY : ui/main_window.cpp.s
 
+utils/censoring_data.o: utils/censoring_data.cpp.o
+.PHONY : utils/censoring_data.o
+
+# target to build an object file
+utils/censoring_data.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/utils/censoring_data.cpp.o
+.PHONY : utils/censoring_data.cpp.o
+
+utils/censoring_data.i: utils/censoring_data.cpp.i
+.PHONY : utils/censoring_data.i
+
+# target to preprocess a source file
+utils/censoring_data.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/utils/censoring_data.cpp.i
+.PHONY : utils/censoring_data.cpp.i
+
+utils/censoring_data.s: utils/censoring_data.cpp.s
+.PHONY : utils/censoring_data.s
+
+# target to generate assembly for a file
+utils/censoring_data.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/utils/censoring_data.cpp.s
+.PHONY : utils/censoring_data.cpp.s
+
 utils/data_generator.o: utils/data_generator.cpp.o
 .PHONY : utils/data_generator.o
 
@@ -286,6 +310,30 @@ utils/data_params_calculator.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/utils/data_params_calculator.cpp.s
 .PHONY : utils/data_params_calculator.cpp.s
 
+utils/log_normal_system_solver.o: utils/log_normal_system_solver.cpp.o
+.PHONY : utils/log_normal_system_solver.o
+
+# target to build an object file
+utils/log_normal_system_solver.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/utils/log_normal_system_solver.cpp.o
+.PHONY : utils/log_normal_system_solver.cpp.o
+
+utils/log_normal_system_solver.i: utils/log_normal_system_solver.cpp.i
+.PHONY : utils/log_normal_system_solver.i
+
+# target to preprocess a source file
+utils/log_normal_system_solver.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/utils/log_normal_system_solver.cpp.i
+.PHONY : utils/log_normal_system_solver.cpp.i
+
+utils/log_normal_system_solver.s: utils/log_normal_system_solver.cpp.s
+.PHONY : utils/log_normal_system_solver.s
+
+# target to generate assembly for a file
+utils/log_normal_system_solver.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/utils/log_normal_system_solver.cpp.s
+.PHONY : utils/log_normal_system_solver.cpp.s
+
 utils/plot_viewer.o: utils/plot_viewer.cpp.o
 .PHONY : utils/plot_viewer.o
 
@@ -353,6 +401,9 @@ help:
 	@echo "... ui/main_window.o"
 	@echo "... ui/main_window.i"
 	@echo "... ui/main_window.s"
+	@echo "... utils/censoring_data.o"
+	@echo "... utils/censoring_data.i"
+	@echo "... utils/censoring_data.s"
 	@echo "... utils/data_generator.o"
 	@echo "... utils/data_generator.i"
 	@echo "... utils/data_generator.s"
@@ -362,6 +413,9 @@ help:
 	@echo "... utils/data_params_calculator.o"
 	@echo "... utils/data_params_calculator.i"
 	@echo "... utils/data_params_calculator.s"
+	@echo "... utils/log_normal_system_solver.o"
+	@echo "... utils/log_normal_system_solver.i"
+	@echo "... utils/log_normal_system_solver.s"
 	@echo "... utils/plot_viewer.o"
 	@echo "... utils/plot_viewer.i"
 	@echo "... utils/plot_viewer.s"

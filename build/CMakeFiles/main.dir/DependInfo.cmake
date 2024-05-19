@@ -11,9 +11,11 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/Users/gubin-dev/Documents/univercity/методы оптимизации/normal_likelihood_method/main.cpp" "CMakeFiles/main.dir/main.cpp.o" "gcc" "CMakeFiles/main.dir/main.cpp.o.d"
   "/Users/gubin-dev/Documents/univercity/методы оптимизации/normal_likelihood_method/build/main_autogen/mocs_compilation.cpp" "CMakeFiles/main.dir/main_autogen/mocs_compilation.cpp.o" "gcc" "CMakeFiles/main.dir/main_autogen/mocs_compilation.cpp.o.d"
   "/Users/gubin-dev/Documents/univercity/методы оптимизации/normal_likelihood_method/ui/main_window.cpp" "CMakeFiles/main.dir/ui/main_window.cpp.o" "gcc" "CMakeFiles/main.dir/ui/main_window.cpp.o.d"
+  "/Users/gubin-dev/Documents/univercity/методы оптимизации/normal_likelihood_method/utils/censoring_data.cpp" "CMakeFiles/main.dir/utils/censoring_data.cpp.o" "gcc" "CMakeFiles/main.dir/utils/censoring_data.cpp.o.d"
   "/Users/gubin-dev/Documents/univercity/методы оптимизации/normal_likelihood_method/utils/data_generator.cpp" "CMakeFiles/main.dir/utils/data_generator.cpp.o" "gcc" "CMakeFiles/main.dir/utils/data_generator.cpp.o.d"
   "/Users/gubin-dev/Documents/univercity/методы оптимизации/normal_likelihood_method/utils/data_loader.cpp" "CMakeFiles/main.dir/utils/data_loader.cpp.o" "gcc" "CMakeFiles/main.dir/utils/data_loader.cpp.o.d"
   "/Users/gubin-dev/Documents/univercity/методы оптимизации/normal_likelihood_method/utils/data_params_calculator.cpp" "CMakeFiles/main.dir/utils/data_params_calculator.cpp.o" "gcc" "CMakeFiles/main.dir/utils/data_params_calculator.cpp.o.d"
+  "/Users/gubin-dev/Documents/univercity/методы оптимизации/normal_likelihood_method/utils/log_normal_system_solver.cpp" "CMakeFiles/main.dir/utils/log_normal_system_solver.cpp.o" "gcc" "CMakeFiles/main.dir/utils/log_normal_system_solver.cpp.o.d"
   "/Users/gubin-dev/Documents/univercity/методы оптимизации/normal_likelihood_method/utils/plot_viewer.cpp" "CMakeFiles/main.dir/utils/plot_viewer.cpp.o" "gcc" "CMakeFiles/main.dir/utils/plot_viewer.cpp.o.d"
   "/Users/gubin-dev/Documents/univercity/методы оптимизации/normal_likelihood_method/utils/results_saver.cpp" "CMakeFiles/main.dir/utils/results_saver.cpp.o" "gcc" "CMakeFiles/main.dir/utils/results_saver.cpp.o.d"
   )

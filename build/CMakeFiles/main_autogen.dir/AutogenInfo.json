@@ -551,6 +551,12 @@
 			null
 		],
 		[
+			"/Users/gubin-dev/Documents/univercity/\u043c\u0435\u0442\u043e\u0434\u044b \u043e\u043f\u0442\u0438\u043c\u0438\u0437\u0430\u0446\u0438\u0438/normal_likelihood_method/utils/censoring_data.h",
+			"MU",
+			"7HEHEGDA3T/moc_censoring_data.cpp",
+			null
+		],
+		[
 			"/Users/gubin-dev/Documents/univercity/\u043c\u0435\u0442\u043e\u0434\u044b \u043e\u043f\u0442\u0438\u043c\u0438\u0437\u0430\u0446\u0438\u0438/normal_likelihood_method/utils/data_generator.h",
 			"MU",
 			"7HEHEGDA3T/moc_data_generator.cpp",
@@ -566,6 +572,12 @@
 			"/Users/gubin-dev/Documents/univercity/\u043c\u0435\u0442\u043e\u0434\u044b \u043e\u043f\u0442\u0438\u043c\u0438\u0437\u0430\u0446\u0438\u0438/normal_likelihood_method/utils/data_params_calculator.h",
 			"MU",
 			"7HEHEGDA3T/moc_data_params_calculator.cpp",
+			null
+		],
+		[
+			"/Users/gubin-dev/Documents/univercity/\u043c\u0435\u0442\u043e\u0434\u044b \u043e\u043f\u0442\u0438\u043c\u0438\u0437\u0430\u0446\u0438\u0438/normal_likelihood_method/utils/log_normal_system_solver.h",
+			"MU",
+			"7HEHEGDA3T/moc_log_normal_system_solver.cpp",
 			null
 		],
 		[
@@ -651,6 +663,11 @@
 			null
 		],
 		[
+			"/Users/gubin-dev/Documents/univercity/\u043c\u0435\u0442\u043e\u0434\u044b \u043e\u043f\u0442\u0438\u043c\u0438\u0437\u0430\u0446\u0438\u0438/normal_likelihood_method/utils/censoring_data.cpp",
+			"MU",
+			null
+		],
+		[
 			"/Users/gubin-dev/Documents/univercity/\u043c\u0435\u0442\u043e\u0434\u044b \u043e\u043f\u0442\u0438\u043c\u0438\u0437\u0430\u0446\u0438\u0438/normal_likelihood_method/utils/data_generator.cpp",
 			"MU",
 			null
@@ -662,6 +679,11 @@
 		],
 		[
 			"/Users/gubin-dev/Documents/univercity/\u043c\u0435\u0442\u043e\u0434\u044b \u043e\u043f\u0442\u0438\u043c\u0438\u0437\u0430\u0446\u0438\u0438/normal_likelihood_method/utils/data_params_calculator.cpp",
+			"MU",
+			null
+		],
+		[
+			"/Users/gubin-dev/Documents/univercity/\u043c\u0435\u0442\u043e\u0434\u044b \u043e\u043f\u0442\u0438\u043c\u0438\u0437\u0430\u0446\u0438\u0438/normal_likelihood_method/utils/log_normal_system_solver.cpp",
 			"MU",
 			null
 		],

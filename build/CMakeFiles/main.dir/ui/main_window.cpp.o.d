@@ -980,4 +980,6 @@ CMakeFiles/main.dir/ui/main_window.cpp.o: \
   /usr/local/lib/QtWidgets.framework/Headers/QLabel \
   /usr/local/lib/QtWidgets.framework/Headers/qlabel.h \
   /usr/local/include/QtGui/qpicture.h \
-  /usr/local/include/QtCore/qiodevice.h
+  /usr/local/include/QtCore/qiodevice.h \
+  /Users/gubin-dev/Documents/univercity/методы\ оптимизации/normal_likelihood_method/ui/../utils/censoring_data.h \
+  /Users/gubin-dev/Documents/univercity/методы\ оптимизации/normal_likelihood_method/ui/../utils/log_normal_system_solver.h
