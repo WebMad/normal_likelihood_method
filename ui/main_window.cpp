@@ -63,7 +63,7 @@ MainWindow::MainWindow(
     bodyLayout->addLayout(textBoxLayout);
 
     QVBoxLayout *mainLayout = new QVBoxLayout;
-    QLabel *titleLabel = new QLabel("Применение метода максимального правдоподобия\nдля оценки параметров нормального распределения");
+    QLabel *titleLabel = new QLabel("Применение метода максимального правдоподобия\nдля оценки параметров логарифмически нормального распределения");
     titleLabel->setAlignment(Qt::AlignCenter); // Центрирование текста
     QFont font = titleLabel->font();
     font.setPointSize(18);
@@ -90,6 +90,7 @@ void MainWindow::onLoadData() {
 
 void MainWindow::viewData() {
     vector<double>& data = dataLoader->getData();
+    vector<double>& r = dataLoader->getR();
 
     if (data.empty()) {
         QMessageBox::warning(this, "Ошибка", "Нет данных для обработки");
@@ -102,12 +103,22 @@ void MainWindow::viewData() {
     }
     oss << data.back();
 
+    oss << endl << endl << "r: " << endl;
+
+    for (size_t i = 0; i < r.size() - 1; ++i) {
+        oss << r[i] << ',';
+    }
+
+    oss << r.back();
+
     findChild<QTextEdit*>("samplingTextBox")->setPlainText(QString::fromStdString(oss.str()));
 }
 
 void MainWindow::onGenerateData() {
-    vector<double> data = dataGenerator->generateData(3000);
-    dataLoader->loadData(data);
+    vector<double> data = dataGenerator->generateData(100);
+    vector<double> r = dataGenerator->generateR(100);
+
+    dataLoader->loadData(data, r);
 
     viewData();
 }
@@ -120,18 +131,11 @@ void MainWindow::onSaveData() {
 
 void MainWindow::onCalcParams() {
     vector<double> data = dataLoader->getData();
+    vector<double> r = dataLoader->getR();
 
     if (data.empty()) {
         QMessageBox::warning(this, "Ошибка", "Нет данных для обработки");
         return;
-    }
-
-    CensoringData censoringData;
-    censoringData.loadData(data);
-    censoringData.censorDataIType(10);
-
-    for (int i = 0; i < censoringData.censoredData.size(); i++) {
-        cout << censoringData.censoredData[i] << ", " << endl;
     }
 
     double a = 0.99; // начальное значение параметра a
@@ -142,17 +146,18 @@ void MainWindow::onCalcParams() {
 
     LogNormalSystemSolver logNormalSystemSolver;
 
-    std::vector<double> optimized_params = logNormalSystemSolver.nelder_mead(res, censoringData.resultData, censoringData.censoredData, censoringData.r);
+    std::vector<double> optimized_params = logNormalSystemSolver.nelder_mead(res, data, r, [&logNormalSystemSolver](const std::vector<double>& params, const std::vector<double>& x, const std::vector<double>& r) {
+                                                        return logNormalSystemSolver.objective_func(params, x, r);
+                                                    });
 
 
     ostringstream oss;
 
-    oss << "данные" << endl;
+    oss << "Параметры распределения" << endl;
 
     oss << "a result: " << optimized_params[0] << std::endl;
     oss << "sigma result: " << optimized_params[1] << std::endl;
     oss << "x0 result: " << optimized_params[2] << std::endl;
-    oss << "censored data count: " << censoringData.censoredData.size() << std::endl;
 
     findChild<QTextEdit*>("resultsTextBox")->setPlainText(QString::fromStdString(oss.str()));
 }

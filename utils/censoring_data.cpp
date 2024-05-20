@@ -27,10 +27,8 @@ void CensoringData::censorDataIType(double timeLimit) {
 
         censoredDataToCount[rawCensoredData[j]] = censoredDataToCount[rawCensoredData[j]] + 1;
     }
-    std::cout << censoredDataToCount.size() << endl;
 
     for(std::map<double,int>::iterator it = censoredDataToCount.begin(); it != censoredDataToCount.end(); ++it) {
-        std::cout << 1 << endl;
         censoredData.push_back(it->first);
         r.push_back(it->second);
     }

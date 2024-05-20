@@ -12,7 +12,7 @@ void PlotViewer::viewDistributionPlot(vector<double> &data) {
     } else {
         // Подготовка данных для гистограммы
         map<double, int> histogram;
-        double binSize = 0.5;  // Установка размера бина
+        double binSize = 1;  // Установка размера бина
 
         for (double value : data) {
             double bin = floor(value / binSize) * binSize;  // Округление вниз и нормализация
